@@ -1,7 +1,6 @@
 /**
  * Cloudflare Workers Proxy
  * 功能完整的代理服务，支持 HTTP/HTTPS/WebSocket 代理
- * 参考: https://proxy.qxq.news/
  */
 
 // 配置项
@@ -15,7 +14,7 @@ const CONFIG = {
   rewriteLocation: true,
   enableCache: true,
   cacheTTL: 3600,
-  DEFAULT_EXAMPLE_URL: 'http://api.ity.bio/v1', // 默认示例 URL
+  DEFAULT_EXAMPLE_URL: 'http://proxy.com/v1', // 默认示例 URL
 };
 
 // Base64 URL 解码
